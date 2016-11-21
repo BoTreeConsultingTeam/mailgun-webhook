@@ -8,16 +8,16 @@ one:
   country: MyString
   region: MyString
   city: MyString
-  user-agent: MyString
-  device-type: MyString
-  client-type: MyString
-  client-name: MyString
-  client-os: MyString
-  campaign-id: MyString
-  campaign-name: MyString
+  user_agent: MyString
+  device_type: MyString
+  client_type: MyString
+  client_name: MyString
+  client_os: MyString
+  campaign_id: MyString
+  campaign_name: MyString
   tag: MyString
-  mailing-list: MyString
-  timestamp: 2016-11-21 10:59:49
+  mailing_list: MyString
+  timestamp: 2016_11_21 10:59:49
   token: MyString
   signature: MyString
 
@@ -29,15 +29,15 @@ two:
   country: MyString
   region: MyString
   city: MyString
-  user-agent: MyString
-  device-type: MyString
-  client-type: MyString
-  client-name: MyString
-  client-os: MyString
-  campaign-id: MyString
-  campaign-name: MyString
+  user_agent: MyString
+  device_type: MyString
+  client_type: MyString
+  client_name: MyString
+  client_os: MyString
+  campaign_id: MyString
+  campaign_name: MyString
   tag: MyString
-  mailing-list: MyString
-  timestamp: 2016-11-21 10:59:49
+  mailing_list: MyString
+  timestamp: 2016_11_21 10:59:49
   token: MyString
   signature: MyString
