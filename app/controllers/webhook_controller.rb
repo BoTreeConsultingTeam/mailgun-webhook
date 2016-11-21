@@ -34,7 +34,7 @@ class WebhookController < ApplicationController
   
   def is_valid_event?
     signature = params.fetch('signature')
-    api_key   = 'key-'
+    api_key   = Settings.mailgun.api_key
     timestamp = params.fetch('timestamp')
     token     = params.fetch('token')
     digest    = OpenSSL::Digest.new('sha256')
