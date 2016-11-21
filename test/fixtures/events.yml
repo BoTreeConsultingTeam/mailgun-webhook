@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event: MyString
+  recipient: MyString
+  domain: MyString
+  ip: MyString
+  country: MyString
+  region: MyString
+  city: MyString
+  user-agent: MyString
+  device-type: MyString
+  client-type: MyString
+  client-name: MyString
+  client-os: MyString
+  campaign-id: MyString
+  campaign-name: MyString
+  tag: MyString
+  mailing-list: MyString
+  timestamp: 2016-11-21 10:59:49
+  token: MyString
+  signature: MyString
+
+two:
+  event: MyString
+  recipient: MyString
+  domain: MyString
+  ip: MyString
+  country: MyString
+  region: MyString
+  city: MyString
+  user-agent: MyString
+  device-type: MyString
+  client-type: MyString
+  client-name: MyString
+  client-os: MyString
+  campaign-id: MyString
+  campaign-name: MyString
+  tag: MyString
+  mailing-list: MyString
+  timestamp: 2016-11-21 10:59:49
+  token: MyString
+  signature: MyString

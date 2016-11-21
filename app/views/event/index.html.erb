@@ -1,0 +1,27 @@
+<h1>Events</h1>
+
+<table>
+  <tr>
+    <th>#Sr.</th>
+    <th>Event Type</th>
+    <th>Receipient</th>
+    <th>Device</th>
+    <th>Client</th>
+    <th>IP</th>
+    <th>Region</th>
+    <th>Timestamp</th>
+  </tr>
+  <% @events.each_with_index do |event, index| %>
+    <tr>
+      <td><%= index+1 %></td>
+      <td><%= event.event %></td>
+      <td><%= event.recipient %></td>
+      <td><%= event.device_type %></td>
+      <td><%= "#{event.client_name} - #{event.client_type} - #{event.client_os}" %></td>
+      <td><%= event.ip %></td>
+      <td><%= event.region %></td>
+      <td><%= event.timestamp %></td>
+    </tr>
+  <% end %>
+
+</table>

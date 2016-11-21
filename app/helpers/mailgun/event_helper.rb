@@ -1,0 +1,2 @@
+module Mailgun::EventHelper
+end
