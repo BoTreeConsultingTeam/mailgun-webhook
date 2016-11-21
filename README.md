@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# mailgun-webhook
+POC for mailgun webhook and other APIs 
+>>>>>>> aa2bdeee0314a3a4deb5182ed3821b85a1681a02
